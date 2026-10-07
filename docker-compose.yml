@@ -1,0 +1,7 @@
+services:
+
+  web:
+    image: nginx
+
+    ports:
+      - "8088:80"
